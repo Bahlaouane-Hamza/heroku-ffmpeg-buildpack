@@ -13,7 +13,7 @@ env_dir=$3
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
 heroku_dir=$build_dir/.heroku
 
-BUILD_DIR=build_dir
+BUILD_DIR="$build_dir"
 TARGET_DIR="$BUILD_DIR/target"
 
 source $bp_dir/lib/build.sh
