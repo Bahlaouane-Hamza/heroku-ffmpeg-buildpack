@@ -31,8 +31,8 @@ fi
 #ENV_ROOT=`pwd`
 source $bp_dir/lib/env.source
 
-rm -rf "$BUILD_DIR" "$TARGET_DIR"
-mkdir -p "$BUILD_DIR" "$TARGET_DIR"
+#rm -rf "$BUILD_DIR" "$TARGET_DIR"
+#mkdir -p "$BUILD_DIR" "$TARGET_DIR"
 
 # NOTE: this is a fetchurl parameter, nothing to do with the current script
 #export TARGET_DIR_DIR="$BUILD_DIR"
