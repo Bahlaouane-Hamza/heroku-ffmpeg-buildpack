@@ -28,7 +28,7 @@ then
 fi
 
 #cd `dirname $0`
-ENV_ROOT=`pwd`
+#ENV_ROOT=`pwd`
 source $bp_dir/lib/env.source
 
 rm -rf "$BUILD_DIR" "$TARGET_DIR"
