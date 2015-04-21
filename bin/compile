@@ -7,6 +7,6 @@ indent() {
 echo "-----> Install ffmpeg"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-bp_dir=$(cd $(dirname $0); pwd)
+bp_dir=$(cd $(dirname $0); cd ..; pwd)
 
-source $bp_dir/build.sh
+source $bp_dir/lib/build.sh
