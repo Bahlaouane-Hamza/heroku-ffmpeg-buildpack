@@ -20,4 +20,5 @@ export PATH=/app/.heroku/vendor/bin:$PATH
 
 ffmpeg -version
 
+
 #source $bp_dir/lib/build.sh
