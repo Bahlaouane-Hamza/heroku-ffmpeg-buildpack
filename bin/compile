@@ -15,10 +15,5 @@ heroku_dir=$build_dir/.heroku
 
 BUILD_DIR="$build_dir"
 TARGET_DIR="$BUILD_DIR/target"
-echo 'export PATH=/app/.heroku/vendor/bin:$PATH'
-export PATH=/app/.heroku/vendor/bin:$PATH
 
-ffmpeg -version
-
-
-#source $bp_dir/lib/build.sh
+source $bp_dir/lib/build.sh
